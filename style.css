@@ -5,5 +5,63 @@
 }
 
 body {
-  background: #000;
+  
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.home {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.top-tweet img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  width: 80%;
+  margin-left: 30px;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profile img:hover {
+  opacity: 0.5;
+
+}
+
+.type input {
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.everyone {
+  display: flex;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.everyone:hover {
+  background-color: #00acee;
+}
+
+.pic img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.text {
+  color: #00acee;
 }
