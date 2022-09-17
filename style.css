@@ -48,14 +48,17 @@ body {
   margin-left: 20px;
   margin-top: 20px;
 }
+
+input:focus{
+  outline: none;
+}
+
 .everyone {
-  display: flex;
+  
   margin-left: 130px;
   margin-top: 20px;
 }
-.everyone:hover {
-  background-color: #00acee;
-}
+
 
 .pic img {
   width: 20px;
@@ -64,4 +67,47 @@ body {
 }
 .text {
   color: #00acee;
+  margin-top: 2px;
+}
+.inline {
+  display: inline-flex;
+}
+.inline:hover {
+  background-color: rgba(0, 172, 238, 0.1);
+  border-radius: 10px;
+  padding: 5px;
+}
+hr{
+  margin-top: 30px;
+  opacity: .2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons img {
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+}
+button {
+  color: #fff;
+  font-size: 14px;
+  background: rgba(0, 172, 238, 0.5);
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.tweet {
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
